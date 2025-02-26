@@ -45,16 +45,17 @@ Development dependencies:
 ## Setting up the Backend
 
 1. **Clone the repository**:
+   ```bash
     git clone https://github.com/OrSekler/todo-list-app.git
     cd ToDo List
     ```
 
-2. **Install the backend dependencies**:
+3. **Install the backend dependencies**:
     Navigate to the `backend` folder:
     cd backend
     npm install
 
-3. **Set up your environment variables**:
+4. **Set up your environment variables**:
     Create a `.env` file in the project main folder and add the following: your credentials.
     MONGO_URI= *your mongo uri*
     PORT=5000
