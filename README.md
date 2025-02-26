@@ -75,6 +75,7 @@ Development dependencies:
     ```
 
 2. **Start the frontend development server**:
+   ```bash
     Run the following command:
     npm run dev
     ```
