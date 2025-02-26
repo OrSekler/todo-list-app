@@ -52,17 +52,21 @@ Development dependencies:
 
 3. **Install the backend dependencies**:
     Navigate to the `backend` folder:
+   ```bash
     cd backend
     npm install
+   ```
 
-4. **Set up your environment variables**:
+5. **Set up your environment variables**:
     Create a `.env` file in the project main folder and add the following: your credentials.
+   ```bash
     MONGO_URI= *your mongo uri*
     PORT=5000
+   ```
 
-
-5. **Start the backend development server**:
+7. **Start the backend development server**:
     Use `nodemon` to run the server:
+   ```bash
     npm run dev
     ```
     The server should now be running on `http://localhost:5000`.
@@ -71,11 +75,12 @@ Development dependencies:
 
 1. **Install the frontend dependencies**:
     Navigate to the `frontend` folder:
+   ```bash
     cd frontend
     npm install
     ```
 
-2. **Start the frontend development server**:
+3. **Start the frontend development server**:
    ```bash
     Run the following command:
     npm run dev
